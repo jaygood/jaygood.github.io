@@ -1,0 +1,25 @@
+.chart .gridlines {
+  stroke: lightgrey;
+  shape-rendering: crispEdges;
+  stroke-width: 1;
+}
+
+.chart .axis .domain,
+.chart .axis .tick line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.chart .diff-series .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.chart .zoom-pane {
+  fill: none;
+  pointer-events: all;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
